@@ -1,0 +1,42 @@
+body {
+  background: #ccc;
+}
+
+.ui-radio-button-box {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.ui-radio-button-box input[type=radio] {
+  display: none;
+}
+.ui-radio-button-box .radio-text {
+  content: "";
+  display: inline-flex;
+  background: #FFFFFF;
+  width: 220px;
+  height: 44px;
+  line-height: 22px;
+  border: 1px solid #9FC3FA;
+  border-radius: 4px;
+  font-family: "Verdana";
+  font-size: 18px;
+  color: #022060;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ui-radio-button-box input[type=radio]:hover + .radio-text {
+  content: "";
+  background: #022060;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+.ui-radio-button-box input[type=radio]:checked + .radio-text {
+  content: "";
+  background: #022060;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+
+/*# sourceMappingURL=styles.css.map */

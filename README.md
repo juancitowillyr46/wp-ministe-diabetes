@@ -1,2 +1,2 @@
-# eShop
+# Cuestionario diabetes
 Desarrollo tienda virtual
