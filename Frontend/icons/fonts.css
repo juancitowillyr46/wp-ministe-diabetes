@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?wte6te');
+    src:  url('fonts/icomoon.eot?wte6te#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?wte6te') format('truetype'),
+      url('fonts/icomoon.woff?wte6te') format('woff'),
+      url('fonts/icomoon.svg?wte6te#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-left:before {
+    content: "\e900";
+  }
+  .icon-arrow-right:before {
+    content: "\e901";
+  }
+  .icon-facebook:before {
+    content: "\e902";
+    color: #4b86de;
+  }
+  .icon-man:before {
+    content: "\e903";
+    color: #022060;
+  }
+  .icon-return-right:before {
+    content: "\e904";
+  }
+  .icon-size:before {
+    content: "\e905";
+    color: #022060;
+  }
+  .icon-twitter:before {
+    content: "\e906";
+    color: #4b86de;
+  }
+  .icon-whatsapp:before {
+    content: "\e907";
+    color: #4b86de;
+  }
+  
