@@ -1,11 +1,20 @@
 $colo-principal: #E6F5FF;
 
-/* -- Font Founders Grotesk -- */
 @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-Bold.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Bold.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Bold.ttf') format('truetype');
+    src: url('/fonts/atomikal/FoundersGrotesk-Semibold.woff2') format('woff2'),
+        url('/fonts/atomikal/FoundersGrotesk-Semibold.woff') format('woff'),
+        url('/fonts/atomikal/FoundersGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('/fonts/atomikal/FuturaStd-CondensedExtraBd.woff2') format('woff2'),
+        url('/fonts/atomikal/FuturaStd-CondensedExtraBd.woff') format('woff'),
+        url('/fonts/atomikal/FuturaStd-CondensedExtraBd.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -13,159 +22,26 @@ $colo-principal: #E6F5FF;
 
 @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-BoldItalic.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-BoldItalic.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-Medium.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Medium.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Medium.ttf') format('truetype');
+    src: url('/fonts/atomikal/FoundersGrotesk-Medium.woff2') format('woff2'),
+        url('/fonts/atomikal/FoundersGrotesk-Medium.woff') format('woff'),
+        url('/fonts/atomikal/FoundersGrotesk-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Founders Grotesk Condensed';
-    src: url('/fonts/founders-grotesk/FoundersGroteskCond-Lt.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGroteskCond-Lt.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGroteskCond-Lt.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-Light.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Light.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-LightItalic.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-LightItalic.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-MediumItalic.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-MediumItalic.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Founders Grotesk Regular';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-RegularItalic.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-RegularItalic.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-RegularItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Founders Grotesk X-Condensed';
-    src: url('/fonts/founders-grotesk/FoundersGroteskXCond-Bold.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGroteskXCond-Bold.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGroteskXCond-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-Regular.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Regular.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Regular.ttf') format('truetype');
+    src: url('/fonts/atomikal/FoundersGrotesk-Regular.woff2') format('woff2'),
+        url('/fonts/atomikal/FoundersGrotesk-Regular.woff') format('woff'),
+        url('/fonts/atomikal/FoundersGrotesk-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Founders Grotesk X-Condensed';
-    src: url('/fonts/founders-grotesk/FoundersGroteskXCond-Lt.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGroteskXCond-Lt.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGroteskXCond-Lt.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-SemiboldItalic.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-SemiboldItalic.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-SemiboldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Founders Grotesk';
-    src: url('/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff2') format('woff2'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff') format('woff'),
-        url('/fonts/founders-grotesk/FoundersGrotesk-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
-/* -- Font Futura Std -- */
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-Bold.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-Bold.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-BoldOblique.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-BoldOblique.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-BoldOblique.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-CondensedBoldObl.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-CondensedBoldObl.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-CondensedBoldObl.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
+    font-family: 'Futura StdJ';
     src: url('/fonts/futura-std/FuturaStd-Condensed.woff2') format('woff2'),
         url('/fonts/futura-std/FuturaStd-Condensed.woff') format('woff'),
         url('/fonts/futura-std/FuturaStd-Condensed.ttf') format('truetype');
@@ -173,168 +49,6 @@ $colo-principal: #E6F5FF;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-Book.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-Book.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-Book.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-CondensedExtraBd.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-CondensedExtraBd.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-CondensedExtraBd.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-CondensedBold.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-CondensedBold.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-CondensedBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-BookOblique.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-BookOblique.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-BookOblique.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-ExtraBold.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-ExtraBold.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-ExtraBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-CondensedLightObl.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-CondensedLightObl.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-CondensedLightObl.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-CondensedOblique.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-CondensedOblique.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-CondensedOblique.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-CondensedLight.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-CondensedLight.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-CondensedLight.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-CondExtraBoldObl.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-CondExtraBoldObl.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-CondExtraBoldObl.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-ExtraBoldOblique.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-ExtraBoldOblique.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-ExtraBoldOblique.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-MediumOblique.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-MediumOblique.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-MediumOblique.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-Medium.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-Medium.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-LightOblique.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-LightOblique.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-LightOblique.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-Heavy.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-Heavy.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-Heavy.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-Light.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-Light.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura Std';
-    src: url('/fonts/futura-std/FuturaStd-HeavyOblique.woff2') format('woff2'),
-        url('/fonts/futura-std/FuturaStd-HeavyOblique.woff') format('woff'),
-        url('/fonts/futura-std/FuturaStd-HeavyOblique.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-
 
 body{
     margin: 0;
@@ -348,11 +62,27 @@ ul, li {
     padding: 0px;
 }
 
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    list-style: none; 
+    counter-reset: li;
+}
+
+li {
+    counter-increment: li
+}
+
+/* Elements General */
 .ui-summary {
     font-family: 'Founders Grotesk';
     font-style: normal;
     font-weight: 400;
     color: #022060;
+    width: 426px;
 }
 
 .ui-summary-weight-500 {
@@ -369,9 +99,10 @@ ul, li {
     color: #022060;
 
     .ui-sub-label {
-        font-family: 'Futura Std';
+        font-family: 'Futura StdJ';
         font-style: normal;
         font-weight: 500;
+        text-transform: none;
     }
 }
 
@@ -423,7 +154,7 @@ ul, li {
         height: 37px;
         // height: 39px;
         // border: 1px solid #9FC3FA;
-        border: 1px solid rgba(159,195,250,0.8);
+        border: 2px solid rgba(159,195,250,0.8);
         border-radius: 4px;
         font-family: 'Founders Grotesk';
         font-style: normal;
@@ -441,6 +172,7 @@ ul, li {
 
         .radio-text-sub {
             display: inline-block;
+            width: 134px;
         }
     }
 
@@ -510,7 +242,6 @@ ul, li {
     font-size: 8.5px;
 }
 
-
 .ui-input-number-box {
     
     background: #FFFFFF;
@@ -524,7 +255,6 @@ ul, li {
     input[type=number]::-webkit-inner-spin-button,
     input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
-        
     }
 
     .ui-input-number {
@@ -534,9 +264,7 @@ ul, li {
         font-size: 20px;
         line-height: 24px;
         /* identical to box height */
-
         text-align: center;
-
         color: #4285E8;
         border:none;
         border: none;
@@ -588,20 +316,6 @@ ul, li {
     font-size: 13px;
 }
 
-// .ui-bollets {
-//     .number {
-//         font-family: 'Founders Grotesk';
-//         font-style: normal;
-//         font-weight: 700;
-//         font-size: 16px;
-//     }
-// }
-ol {
-    margin: 0;
-    padding: 0;
-}
-ol {list-style: none; counter-reset: li}
-li {counter-increment: li}
 .ui-bollets > li::before {
     content: counter(li); 
     font-family: 'Founders Grotesk';
@@ -609,7 +323,6 @@ li {counter-increment: li}
     font-weight: 700;
     font-size: 16px;
     color: #4285E8;
-
     unicode-bidi: isolate;
     font-variant-numeric: tabular-nums;
     text-transform: none;
@@ -618,6 +331,96 @@ li {counter-increment: li}
     text-align-last: start !important;
     margin-right: 8px;
 }
+
 .ui-bollets > li > span{
     display: inline-flex;
+}
+
+/* Preguntas */
+.ui-form-questions {
+    margin: 0 auto;
+}
+
+/* Preguntas */
+.ui-box-question {
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    width: 838px;
+    height: auto;
+    display: block;
+    padding: 28px 28px;
+    padding-top: 40px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    .ui-box-question-image {
+        width: auto;
+        display: inline-block;
+        vertical-align: top;
+        padding-right: 35px;
+    }
+    .ui-box-question-detail {
+        width: 56%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .ui-radio-options .ui-radio-button-box {
+        display: inline-block;
+        padding-bottom: 20px;
+        vertical-align: top;
+    }
+    .ui-radio-options .ui-radio-button-box:nth-child(even) {
+        padding-right: 0px;
+    }
+    .ui-radio-options .ui-radio-button-box:nth-child(odd) {
+        padding-right: 24px;
+    }
+    .ui-radio-label {
+        padding-bottom: 20px;
+        .ui-label{
+            padding-bottom: 10px;
+        }
+        .ui-sub-label{
+            padding-left: 5px;
+        }
+    }
+    
+}
+
+
+.ui-box-result {
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    width: 838px;
+    height: auto;
+    display: block;
+    padding: 28px 28px;
+    padding-top: 40px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px rgba(66, 133, 232, 0.08);
+    text-align: center;
+}
+
+.ui-form-questions-scroll {
+    overflow-y: scroll;
+    height: 1000px;
+    display: block;
+    width: 61%;
+}
+
+.ui-form-questions-scroll::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 8px;
+}
+.ui-form-questions-scroll::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: 0px 4px 8px rgb(66 133 232 / 8%);
+}
+.ui-form-questions-scroll::-webkit-scrollbar-thumb {
+    background-color: #4285E8;
+    
+    border-radius: 9px;
+    height: 15px;
 }

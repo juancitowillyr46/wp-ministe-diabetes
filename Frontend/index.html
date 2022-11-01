@@ -5,193 +5,292 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="images/favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" href="/icons/fonts.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div>
-        <div class="ui-label">Edad</div>
-        <div class="ui-label">Sexo</div>
-        <div class="ui-label">Cintura</div>
-        <div class="ui-label">Presión arterial</div>
-        <div class="ui-label">Dieta</div>
-        <div class="ui-label">Actividad Física</div>
-        <div class="ui-label">Glucemia</div>
-        <div class="ui-label">Antecedentes Familiares</div>
-        <div class="ui-label">IMC<span class="ui-sub-label">(Índice de Masa Corporal)</span></div>
+        <br><br>
     </div>
-
-    <div>
-        <div class="ui-summary">Circunferencia de la cintura por debajo de las costillas (cm).</div>
-        <div class="ui-summary">¿Toma medicamentos para la presión alta o padece de hipertensión arterial?</div>
-        <div class="ui-summary">¿Qué tan seguido comes vegetales, frutas o bayas?</div>
-        <div class="ui-summary">¿Realizas 30 minutos de actividad física todos los días?</div>
-        <div class="ui-summary">Alguna vez te han dicho que tienes glucemia elevada, también conocido como “azúcar alta”? (incluso durante pruebas de rutina, enfermedad o durante el embarazo)</div>
-        <div class="ui-summary">¿Algún miembro de tu familia ha sido diagnosticado con diabetes? (tipo 1 o tipo 2)</div>
-        <div class="ui-summary">
-            <span class="ui-summary-weight-500">Peso</span> (kg) / 
-            <span class="ui-summary-weight-500">Talla</span><span class="ui-simbolo-mc-box">(m<span class="ui-simbolo-mc">2</span>)</span> = 
-            <span class="ui-summary-weight-500">IMC</span> 
+    
+    <form class="ui-form-questions ui-form-questions-scroll">
+        <div class="ui-box-question">
+            <div class="ui-box-question-image">
+                <img src="/images/questions/images.jpg">
+            </div>
+            <div class="ui-box-question-detail">
+                <div class="ui-radio-label">
+                    <div class="ui-label">Edad</div>
+                </div>
+                
+                <div class="ui-radio-options">
+                    <label for="ui-radio-a" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-a" name="ui-radio">
+                        <span class="radio-text">
+                            Menos de 45 años
+                        </span>
+                    </label>
+                    <label for="ui-radio-b" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-b" name="ui-radio">
+                        <span class="radio-text">
+                            45-54 años
+                        </span>
+                    </label>
+                    <label for="ui-radio-c" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-c" name="ui-radio">
+                        <span class="radio-text">
+                            55-64 años
+                        </span>
+                    </label>
+                    <label for="ui-radio-d" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-d" name="ui-radio">
+                        <span class="radio-text">
+                            65 o más años
+                        </span>
+                    </label>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div>
-        <label for="ui-radio-a" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-a" name="ui-radio">
-            <span class="radio-text">
-                Menos de 45 años
-            </span>
-        </label>
-        <label for="ui-radio-b" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-b" name="ui-radio">
-            <span class="radio-text">
-                45-54 años
-            </span>
-        </label>
-        <label for="ui-radio-c" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-c" name="ui-radio">
-            <span class="radio-text">
-                55-64 años
-            </span>
-        </label>
-        <label for="ui-radio-d" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-d" name="ui-radio">
-            <span class="radio-text">
-                65 o más años
-            </span>
-        </label>
-
-        <label for="ui-radio-e" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-e" name="ui-radio">
-            <span class="radio-text">
-                Femenino
-            </span>
-        </label>
-        <label for="ui-radio-f" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-f" name="ui-radio">
-            <span class="radio-text">
-                Masculino
-            </span>
-        </label>
-        <label for="ui-radio-g" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-g" name="ui-radio">
-            <span class="radio-text">
-                Menos de 90 cm
-            </span>
-        </label>
-        <label for="ui-radio-h" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-h" name="ui-radio">
-            <span class="radio-text">
-                90 cm o más
-            </span>
-        </label>
-
-
-        <label for="ui-radio-i" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-i" name="ui-radio">
-            <span class="radio-text">
-                Sí
-            </span>
-        </label>
-        <label for="ui-radio-j" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-j" name="ui-radio">
-            <span class="radio-text">
-                No
-            </span>
-        </label>
-
-        <label for="ui-radio-k" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-k" name="ui-radio">
-            <span class="radio-text">
-                Todos los días
-            </span>
-        </label>
-        <label for="ui-radio-l" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-l" name="ui-radio">
-            <span class="radio-text">
-                No todos los días
-            </span>
-        </label>
-        
-        <label for="ui-radio-m" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-m" name="ui-radio">
-            <span class="radio-text">
-                Sí
-            </span>
-        </label>
-        <label for="ui-radio-n" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-n" name="ui-radio">
-            <span class="radio-text">
-                No
-            </span>
-        </label>
-
-        <label for="ui-radio-o" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-o" name="ui-radio">
-            <span class="radio-text">
-                Sí
-            </span>
-        </label>
-        <label for="ui-radio-p" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-p" name="ui-radio">
-            <span class="radio-text">
-                No
-            </span>
-        </label>
-
-        <label for="ui-radio-q" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-q" name="ui-radio">
-            <span class="radio-text">
-                Ninguno
-            </span>
-        </label>
-        <label for="ui-radio-r" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-r" name="ui-radio">
-            <span class="radio-text radio-text-font-medium">
-                <!-- <span class="radio-text-sub"> -->
-                    Abuelos, tíos <br>o primos hermanos
-                <!-- </span>  -->
-                <!-- <span class="radio-text-sub">o primos hermanos</span> -->
-            </span>
-        </label>
-        <label for="ui-radio-s" class="ui-radio-button-box">
-            <input type="radio" id="ui-radio-s" name="ui-radio">
-            <span class="radio-text radio-text-font-medium">
-                Padres, hermanos o hijos
-            </span>
-        </label>
-    </div>
-
-    <div>
-        <a href="#" class="ui-button">Ver resultados</a>
-    </div>
-
-    <div>
-        <div class="ui-tool-label">Peso (kg)</div>
-        <div class="ui-tool-label">Talla <span class="ui-simbolo-mc-box">(m<span class="ui-simbolo-mc">2</span>)</span></div>
-        <div class="ui-tool-label-result">IMC</div>
-        <div class="ui-tool-result-box">
-            <div class="ui-tool-result">22</div>
+        <div class="ui-box-question">
+            <div class="ui-box-question-image">
+                <img src="/images/questions/images.jpg">
+            </div>
+            <div class="ui-box-question-detail">
+                <div class="ui-radio-label">
+                    <div class="ui-label">Sexo</div>
+                </div>
+                
+                <div class="ui-radio-options">
+                    <label for="ui-radio-e" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-e" name="ui-radio">
+                        <span class="radio-text">
+                            Femenino
+                        </span>
+                    </label>
+                    <label for="ui-radio-f" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-f" name="ui-radio">
+                        <span class="radio-text">
+                            Masculino
+                        </span>
+                    </label>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="box-demo">
-        <div class="ui-input-number-box">
-            <button class="ui-btn-ctrl ui-btn-ctrl-left"><i class="icon-arrow-left"></i></button>
-            <input type="number" min="0" name="quantity" value="65" type="number" class="ui-input-number" />
-            <button class="ui-btn-ctrl ui-btn-ctrl-right"><i class="icon-arrow-right"></i></button>
+        <div class="ui-box-question">
+            <div class="ui-box-question-image">
+                <img src="/images/questions/images.jpg">
+            </div>
+            <div class="ui-box-question-detail">
+                <div class="ui-radio-label">
+                    <div class="ui-label">Cintura</div>
+                    <div class="ui-summary">Circunferencia de la cintura por debajo de las costillas (cm).</div>
+                </div>
+                
+                <div class="ui-radio-options">
+                    <label for="ui-radio-g" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-g" name="ui-radio">
+                        <span class="radio-text">
+                            Menos de 90 cm
+                        </span>
+                    </label>
+                    <label for="ui-radio-h" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-h" name="ui-radio">
+                        <span class="radio-text">
+                            90 cm o más
+                        </span>
+                    </label>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <br>
-
-    <div class="box-demo">
-        <div class="ui-input-number-box">
-            <button class="ui-btn-ctrl ui-btn-ctrl-left"><i class="icon-arrow-left"></i></button>
-            <input type="number" min="0" name="quantity" value="1.70" type="number" class="ui-input-number" />
-            <button class="ui-btn-ctrl ui-btn-ctrl-right"><i class="icon-arrow-right"></i></button>
+        <div class="ui-box-question">
+            <div class="ui-box-question-image">
+                <img src="/images/questions/images.jpg">
+            </div>
+            <div class="ui-box-question-detail">
+                <div class="ui-radio-label">
+                    <div class="ui-label">Presión Arterial</div>
+                    <div class="ui-summary">¿Toma medicamentos para la presión alta o padece de hipertensión arterial?</div>
+                </div>
+                
+                <div class="ui-radio-options">
+                    <label for="ui-radio-i" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-i" name="ui-radio">
+                        <span class="radio-text">
+                            Sí
+                        </span>
+                    </label>
+                    <label for="ui-radio-j" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-j" name="ui-radio">
+                        <span class="radio-text">
+                            No
+                        </span>
+                    </label>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="ui-box-question">
+            <div class="ui-box-question-image">
+                <img src="/images/questions/images.jpg">
+            </div>
+            <div class="ui-box-question-detail">
+                <div class="ui-radio-label">
+                    <div class="ui-label">Actividad Física</div>
+                    <div class="ui-summary">¿Realizas 30 minutos de actividad física todos los días?</div>
+                </div>
+                
+                <div class="ui-radio-options">
+                    <label for="ui-radio-k" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-k" name="ui-radio">
+                        <span class="radio-text">
+                            Sí
+                        </span>
+                    </label>
+                    <label for="ui-radio-l" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-l" name="ui-radio">
+                        <span class="radio-text">
+                            No
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="ui-box-question">
+            <div class="ui-box-question-image">
+                <img src="/images/questions/images.jpg">
+            </div>
+            <div class="ui-box-question-detail">
+                <div class="ui-radio-label">
+                    <div class="ui-label">Glucemia</div>
+                    <div class="ui-summary">Alguna vez te han dicho que tienes glucemia elevada, también conocido como “azúcar alta”? (incluso durante pruebas de rutina, enfermedad o durante el embarazo)</div>
+                </div>
+                
+                <div class="ui-radio-options">
+                    <label for="ui-radio-m" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-m" name="ui-radio">
+                        <span class="radio-text">
+                            Sí
+                        </span>
+                    </label>
+                    <label for="ui-radio-n" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-n" name="ui-radio">
+                        <span class="radio-text">
+                            No
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="ui-box-question">
+            <div class="ui-box-question-image">
+                <img src="/images/questions/images.jpg">
+            </div>
+            <div class="ui-box-question-detail">
+                <div class="ui-radio-label">
+                    <div class="ui-label">antecedentes familiares</div>
+                    <div class="ui-summary">¿Algún miembro de tu familia ha sido diagnosticado con diabetes? (tipo 1 o tipo 2)</div>
+                </div>
+                
+                <div class="ui-radio-options">
+                    <label for="ui-radio-q" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-q" name="ui-radio">
+                        <span class="radio-text">
+                            Ninguno
+                        </span>
+                    </label>
+                    <label for="ui-radio-r" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-r" name="ui-radio">
+                        <span class="radio-text radio-text-font-medium">
+                            <span class="radio-text-sub">
+                                Abuelos, tíos o primos hermanos
+                            </span>
+                        </span>
+                    </label>
+                    <label for="ui-radio-s" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-s" name="ui-radio">
+                        <span class="radio-text radio-text-font-medium">
+                            Padres, hermanos o hijos
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="ui-box-question">
+            <div class="ui-box-question-image">
+                <img src="/images/questions/images.jpg">
+            </div>
+            <div class="ui-box-question-detail">
+                <div class="ui-radio-label">
+                    <div class="ui-label">IMC<span class="ui-sub-label">(Índice de Masa Corporal)</span></div>
+                    <div class="ui-summary">
+                        <span class="ui-summary-weight-500">Peso</span> (kg) / 
+                        <span class="ui-summary-weight-500">Talla</span><span class="ui-simbolo-mc-box">(m<span class="ui-simbolo-mc">2</span>)</span> = 
+                        <span class="ui-summary-weight-500">IMC</span> 
+                    </div>
+                </div>
+                <div>
+                    <div class="ui-tool-label">Peso (kg)</div>
+                    <div class="ui-tool-label">Talla <span class="ui-simbolo-mc-box">(m<span class="ui-simbolo-mc">2</span>)</span></div>
+                    <div class="ui-tool-label-result">IMC</div>
+                    <div class="ui-tool-result-box">
+                        <div class="ui-tool-result">22</div>
+                    </div>
+
+                    <div class="box-demo">
+                        <div class="ui-input-number-box">
+                            <button class="ui-btn-ctrl ui-btn-ctrl-left"><i class="icon-arrow-left"></i></button>
+                            <input type="number" min="0" name="quantity" value="65" type="number" class="ui-input-number" />
+                            <button class="ui-btn-ctrl ui-btn-ctrl-right"><i class="icon-arrow-right"></i></button>
+                        </div>
+                    </div>
+                
+                    <br>
+                
+                    <div class="box-demo">
+                        <div class="ui-input-number-box">
+                            <button class="ui-btn-ctrl ui-btn-ctrl-left"><i class="icon-arrow-left"></i></button>
+                            <input type="number" min="0" name="quantity" value="1.70" type="number" class="ui-input-number" />
+                            <button class="ui-btn-ctrl ui-btn-ctrl-right"><i class="icon-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="ui-radio-options">
+                    <label for="ui-radio-q" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-q" name="ui-radio">
+                        <span class="radio-text">
+                            Ninguno
+                        </span>
+                    </label>
+                    <label for="ui-radio-r" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-r" name="ui-radio">
+                        <span class="radio-text radio-text-font-medium">
+                            <span class="radio-text-sub">
+                                Abuelos, tíos o primos hermanos
+                            </span>
+                        </span>
+                    </label>
+                    <label for="ui-radio-s" class="ui-radio-button-box">
+                        <input type="radio" id="ui-radio-s" name="ui-radio">
+                        <span class="radio-text radio-text-font-medium">
+                            Padres, hermanos o hijos
+                        </span>
+                    </label>
+                </div> -->
+            </div>
+        </div>
+        <div class="ui-box-result">
+            <div>
+                <a href="#" class="ui-button">Ver resultados</a>
+            </div>        
+        </div>
+    </form>
+    
+
+    
+   
+
+    
 
     <br>
     <br>

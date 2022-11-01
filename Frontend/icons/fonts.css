@@ -28,30 +28,37 @@
   .icon-arrow-left:before {
     content: "\e900";
   }
-  .icon-arrow-right:before {
+  .icon-arrow-return-right:before {
     content: "\e901";
   }
-  .icon-facebook:before {
+  .icon-arrow-right:before {
     content: "\e902";
-    color: #4b86de;
   }
-  .icon-man:before {
+  .icon-imc-result:before {
     content: "\e903";
     color: #022060;
   }
-  .icon-return-right:before {
+  .icon-imc-size:before {
     content: "\e904";
-  }
-  .icon-size:before {
-    content: "\e905";
     color: #022060;
   }
-  .icon-twitter:before {
+  .icon-imc-weight:before {
+    content: "\e905";
+  }
+  .icon-rs-facebook:before {
     content: "\e906";
     color: #4b86de;
   }
-  .icon-whatsapp:before {
+  .icon-rs-instagram:before {
     content: "\e907";
+    color: #fff;
+  }
+  .icon-rs-twitter:before {
+    content: "\e908";
+    color: #4b86de;
+  }
+  .icon-rs-whatsapp:before {
+    content: "\e909";
     color: #4b86de;
   }
   
