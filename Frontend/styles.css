@@ -116,7 +116,7 @@ input {
   box-shadow: 0px 4px 8px rgba(66, 133, 232, 0.2);
   border-radius: 8px;
   color: #4285E8;
-  padding: 9px 90px;
+  padding: 9px 91.5px;
   display: inline-block;
   text-decoration: none;
   transition: all 0.3s;
@@ -168,13 +168,13 @@ input {
 }
 .ui-radio-button-box input[type=radio]:hover + .radio-text {
   content: "";
-  background: #022060;
+  background: #4285E8;
   color: #FFFFFF;
   transition: all 0.3s;
 }
 .ui-radio-button-box input[type=radio]:checked + .radio-text {
   content: "";
-  background: #022060;
+  background: #4285E8;
   color: #FFFFFF;
   transition: all 0.3s;
 }
@@ -262,7 +262,7 @@ input {
 }
 .ui-input-number-box .ui-input-number-line {
   height: 3px;
-  background: #9FC3FA;
+  background: rgba(159, 195, 250, 0.8);
   display: inline-block;
   width: 113px;
   border-radius: 32px;
@@ -297,6 +297,7 @@ input {
 }
 .box-calculate-imc .box-c .ui-imc-image {
   height: 50px;
+  width: 50px;
 }
 .box-calculate-imc .box-c img {
   width: 50px;
@@ -352,7 +353,7 @@ input {
 }
 
 .box-instructions {
-  width: 888px;
+  width: 875px;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -457,7 +458,7 @@ input {
   width: 888px;
   border-top: 1px solid #4285E8;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 0x;
   padding-bottom: 20px;
 }
 .footer .logos {
@@ -526,6 +527,48 @@ input {
   padding-bottom: 0px;
 }
 .box-shared-rs .button-rs .icon-rs {
+  font-size: 23.72px;
+}
+
+.box-shared-rs-footer {
+  display: none;
+  background: #FFFFFF;
+  height: 28px;
+  padding: 8px;
+  right: 0px;
+  z-index: 9;
+  border-radius: 0px 0px 16px 16px;
+  width: 284px;
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
+.box-shared-rs-footer .label-rs {
+  width: 50%;
+  display: inline-block;
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #022060;
+}
+.box-shared-rs-footer .button-rs {
+  display: inline-block;
+  vertical-align: sub;
+}
+.box-shared-rs-footer .button-rs a {
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 16px;
+}
+.box-shared-rs-footer .button-rs a:last-child {
+  padding-bottom: 0px;
+}
+.box-shared-rs-footer .button-rs .icon-rs {
   font-size: 23.72px;
 }
 
@@ -814,6 +857,7 @@ input {
   padding-top: 3px;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
 }
 
 .ui-form-button:hover {
@@ -847,8 +891,7 @@ input {
 
 .ui-button-return {
   background: #FFFFFF;
-  opacity: 0.8;
-  border: 1px solid #4285E8;
+  border: 1px solid rgba(66, 133, 232, 0.8);
   border-radius: 4px;
   text-decoration: none;
   font-family: "Founders Grotesk";
@@ -860,22 +903,27 @@ input {
   color: #022060;
   padding: 14px;
   display: flex;
-  width: 46.4%;
+  width: 50.4%;
   align-items: center;
   cursor: pointer;
-  padding: 6.5px 14px;
+  padding: 6.5px 5px;
+  position: relative;
 }
 .ui-button-return i {
   color: #4285E8;
   font-size: 14px;
   vertical-align: middle;
-  margin-right: 28px;
+  margin-right: 40px;
+  position: absolute;
+  left: 12px;
 }
 .ui-button-return span {
   align-items: center;
   padding-top: 6px;
   display: inline-block;
   vertical-align: middle;
+  text-align: center;
+  width: 100%;
 }
 
 .ui-button-return:hover {
@@ -950,7 +998,7 @@ input {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 22px;
   /* or 25px */
   color: #FFFFFF;
 }
@@ -1037,7 +1085,7 @@ input {
   color: #FFFFFF;
   position: absolute;
   right: 258px;
-  top: 15px;
+  top: 32px;
 }
 .rs-box .rs-box-link {
   display: inline-block;
@@ -1045,6 +1093,330 @@ input {
 }
 .rs-box .rs-box-link:last-child {
   margin-right: 0px;
+}
+
+/* Media Queries */
+.check {
+  display: none;
+}
+
+.ui-slider-summary-mobile {
+  display: none;
+}
+
+.ui-slider-item-gradient {
+  display: none;
+}
+
+.icon-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .icon-mobile {
+    display: block;
+  }
+  .ui-slider-item-gradient {
+    display: block;
+  }
+  .ui-slider-summary-desktop {
+    display: none;
+  }
+  .ui-slider-summary-mobile {
+    display: block;
+  }
+  .box-shared-rs-footer {
+    display: block;
+  }
+  .body-container {
+    width: 365px;
+  }
+  .box-shared-rs {
+    display: none;
+  }
+  .ui-form-questions-scroll {
+    width: 359px;
+    overflow: unset;
+    height: auto;
+  }
+  .ui-box-result {
+    width: 319px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ui-box-result .ui-button {
+    padding: 9px 68px;
+    position: relative;
+  }
+  .ui-box-result .ui-button img {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+  }
+  .ui-box-question {
+    width: 303px;
+    padding-top: 12px;
+  }
+  .ui-box-question .ui-box-question-detail {
+    width: 100%;
+    display: block;
+  }
+  .ui-box-question .ui-radio-button-box {
+    padding-right: 0px;
+    width: 304px;
+  }
+  .ui-box-question .radio-text {
+    width: 300px;
+  }
+  .ui-box-question .ui-radio-options .ui-radio-button-box:nth-child(odd) {
+    padding-right: 0px;
+  }
+  .ui-box-question .ui-radio-options .ui-radio-button-box {
+    padding-bottom: 16px;
+  }
+  .ui-box-question input[type=radio]:hover + .radio-text {
+    box-shadow: 0px 4px 8px rgba(66, 133, 232, 0.4);
+  }
+  .ui-box-question input[type=radio]:checked + .radio-text {
+    box-shadow: 0px 4px 8px rgba(66, 133, 232, 0.4);
+  }
+  .ui-box-question .ui-image-question {
+    display: none;
+  }
+  .ui-box-question .ui-summary {
+    display: block;
+    width: 303px;
+  }
+  .ui-box-question .ui-radio-button-box {
+    display: block !important;
+  }
+  .ui-box-question input[type=radio]:checked + .radio-text {
+    position: relative;
+  }
+  .ui-box-question input[type=radio]:checked + .radio-text .check {
+    display: block;
+    position: absolute;
+    left: 11px;
+    top: 14px;
+  }
+  .ui-box-question .ui-radio-options .ui-radio-button-box {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+  .ui-box-question .radio-text {
+    border: 2px solid rgba(66, 133, 232, 0.4);
+  }
+  .box-instructions {
+    display: block;
+    width: 359px;
+    display: block;
+    padding-bottom: 40px;
+  }
+  .ui-bullets > li > span {
+    width: 90%;
+  }
+  .footer {
+    display: block;
+    width: 359px;
+    margin: 0 auto;
+  }
+  .footer .logos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .logos .logo-icon {
+    padding-right: 30px;
+  }
+  .footer .logos .logo-icon:last-child {
+    padding-right: 0px;
+  }
+  .footer .copyright {
+    width: 100%;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  .ui-form-input-box {
+    padding-bottom: 12px;
+  }
+  .ui-form-input-box .ui-form-input-group:nth-child(2) {
+    margin-top: 16px;
+  }
+  /* Resultado */
+  .ui-box-result-main {
+    width: 315px;
+    padding: 24px 24px;
+  }
+  .ui-box-result-main .ui-box-result-left {
+    width: 100%;
+    display: block;
+  }
+  .ui-box-result-main .ui-box-result-right {
+    display: block;
+    width: 100%;
+  }
+  .ui-box-result-main .ui-form-input-group {
+    margin-right: 0px !important;
+  }
+  .ui-box-result-main .ui-form-input {
+    width: 297px;
+  }
+  .body-container-result {
+    width: 359px;
+  }
+  .ui-result-imc {
+    display: none;
+  }
+  .ui-form-input-chk-label span {
+    display: inline-block;
+    width: 92%;
+    vertical-align: text-top;
+  }
+  .ui-form-p p {
+    width: 91%;
+  }
+  .ui-form-button {
+    position: relative;
+  }
+  .ui-form-button {
+    display: block;
+    width: 316px;
+  }
+  .icon-return {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+  .ui-form-button:hover {
+    background: linear-gradient(180deg, rgba(174, 218, 255, 0.15) 0%, rgba(174, 218, 255, 0) 83.33%), #4285E8;
+    box-shadow: 0px 4px 8px rgba(66, 133, 232, 0.4);
+  }
+  .ui-button-return {
+    width: 304px;
+  }
+  .ui-button-return span {
+    width: 100%;
+  }
+  .body {
+    top: -132px;
+  }
+  .ui-slider-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #5B94E7;
+    border-radius: 0px 0px 24px 24px;
+  }
+  .ui-slider-box .ui-slider-title, .ui-slider-box .ui-slider-summary {
+    width: 304px;
+  }
+  .ui-slider-box .ui-slider-image {
+    margin-top: 0px;
+  }
+  .ui-slider-box .ui-slider-item {
+    display: block;
+  }
+  .ui-slider-box .ui-slider-item .ui-slider-image {
+    background-image: url("/images/sliders/slider-mobile.jpg") !important;
+    width: 100%;
+    background-size: contain;
+  }
+  .ui-slider-box .ui-slider-item .ui-slider-txt {
+    margin: 0 auto;
+    display: block;
+    width: 304px;
+    height: auto;
+    height: 408px;
+  }
+  .ui-slider-box .ui-slider-item .ui-slider-txt .ui-slider-position {
+    width: 304px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .logo-box {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 44px;
+    z-index: 9;
+    top: 20px;
+  }
+  .logo-box .logo-txt {
+    width: 52.34px;
+  }
+  .logo-box .logo-txt-image {
+    width: 279px;
+  }
+  .rs-box {
+    display: none;
+  }
+  .ui-button-return i {
+    margin-right: 20px;
+    margin-left: 12px;
+  }
+  .box-calculate-imc .box-c {
+    display: inline-flex;
+  }
+  .box-calculate-imc .box-c .ui-tool-label {
+    height: 23px;
+    padding-top: 8px;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .box-calculate-imc .box-c .ui-input-number-box {
+    width: 144px;
+  }
+  .box-calculate-imc .box-c .ui-tool-label-result {
+    height: 23px;
+    padding-top: 8px;
+    width: 40%;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .box-calculate-imc .box-a {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    vertical-align: top;
+  }
+  .box-calculate-imc .box-c {
+    width: 100%;
+  }
+  .box-calculate-imc .box-a {
+    padding-top: 0px;
+  }
+  .box-calculate-imc .box-c .ui-input-number-box {
+    padding-top: 14px;
+  }
+  .box-a > img {
+    margin-right: 60px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  .ui-input-number-box .ui-input-number-line {
+    margin: 0 auto;
+    display: block;
+    margin-top: 2px;
+  }
+  .ui-input-number-box .ui-input-number {
+    width: 72px;
+    height: 25px;
+    padding-top: 2px;
+  }
+  .ui-tool-result-box {
+    margin-right: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
