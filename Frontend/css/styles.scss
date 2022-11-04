@@ -1,3 +1,4 @@
+/* Style */
 $colo-principal: #E6F5FF;
 
 @font-face {
@@ -344,7 +345,7 @@ input {
         vertical-align: top;
         .ui-imc-image {
             height: 50px;
-            width: 50px;
+            // width: 50px;
         }
         img {
             width: 50px;
@@ -1061,10 +1062,7 @@ input {
     font-weight: 750;
     font-size: 44px;
     line-height: 52px;
-    /* or 48px */
-
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
@@ -1074,9 +1072,6 @@ input {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* or 25px */
-
-
     color: #FFFFFF;
     p {
         padding: 0;
@@ -1145,9 +1140,7 @@ input {
     display: inline-block;
     vertical-align: middle;
     position: absolute;
-    
     left: 255px;
-    /* padding-right: 18px; */
     z-index: 9;
     top: 15px;
     img {
@@ -1213,18 +1206,11 @@ input {
     .body-container {
         width: 365px;
     }
-    // .ui-slider-box {
-    //     display: none;
-    // }
+
     .box-shared-rs {
         display: none;
     }
-    // .ui-logo-box {
-    //     display: none;
-    // }
-    // .logo-box{
-    //     display: none;
-    // }
+
     .ui-form-questions-scroll {
         width: 359px;
         overflow: unset;
@@ -1290,13 +1276,6 @@ input {
             
         }
 
-        // .ui-form-input-box {
-        //     .ui-form-input-group {
-        //         margin-top: 5px;
-        //     }
-        // }
-        
-
         input[type="radio"]:checked + .radio-text {
             position: relative;
             .check {
@@ -1359,18 +1338,12 @@ input {
         .ui-form-input-group:nth-child(2) {
             margin-top: 16px;
         }
-        // .ui-form-input-group:nth-child(2) {
-        //     margin-right: 16x;
-        // }
-        
     }
 
     /* Resultado */
     .ui-box-result-main{
         width: 315px;
         padding: 24px 24px;
-        // padding-top: 24px;
-        // padding-bottom: 25px;
         .ui-box-result-left {
             width: 100%;
             display: block;
@@ -1430,9 +1403,6 @@ input {
         }
     }
 
-    // .ui-box-result-register {
-    //     margin-bottom: 34px;
-    // }
     .body {
         top: -132px;
     }
@@ -1478,7 +1448,7 @@ input {
         display: inline-block;
         vertical-align: middle;
         position: absolute;
-        left: 44px;
+        left: 36px;
         z-index: 9;
         top: 20px;
         .logo-txt {
